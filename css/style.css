@@ -13,7 +13,7 @@
     2.HELPER
     3.NAVBAR
     4.HOME
-    5.ABOUT 
+    5.ABOUT
     6.SERVICES
     7.CLIENT
     8.WORK
@@ -233,8 +233,9 @@ button:focus {
 }
 
 .custom-nav .navbar-nav li a {
-    color: rgba(255, 255, 255, 0.6) !important;
-    font-size: 15px;
+    /* color: rgba(255, 255, 255, 0.6) !important; */
+    color: rgba(0, 0, 0, 0.6) !important;
+    font-size: 17px;
     background-color: transparent !important;
     margin: 0 7px;
     letter-spacing: 0.05em;
@@ -264,12 +265,14 @@ button:focus {
 }
 
 .custom-nav .navbar-brand {
-    color: #fff !important;
+    /* color: #fff !important; */
+    color: #e65f78 !important;
     text-transform: uppercase;
 }
 
 .custom-nav .navbar-toggler {
-    color: #fff;
+    /* color: #fff; */
+    color: #e65f78;
     font-size: 35px;
     padding: 0px;
 }
@@ -285,6 +288,7 @@ button:focus {
 
 .custom-nav.stickyadd {
     background-color: #fff  !important;
+    /* background-color: #e65f78 !important; */
     box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.050980392156862744);
     padding: 15px 0px;
 }
@@ -433,7 +437,7 @@ button:focus {
 
 .owl-theme .owl-controls .owl-page.active span {
     width: 20px;
-}        
+}
 
 /*===========================
         8.WORK
